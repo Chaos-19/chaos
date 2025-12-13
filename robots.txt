@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://chaoskal.vercel.app/sitemap.xml
+Sitemap: https://kalchaos.vercel.app/sitemap.xml
