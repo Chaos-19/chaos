@@ -79,7 +79,7 @@ export const EXPERIENCE: Experience[] = [
   {
     id: 3,
     role: "Software Implementation Assistant",
-    company: "Cluster PLC",
+    company: "Custer PLC",
     period: "2025 — prenst",
     description:
       "Assisted in the rollout and implementation of enterprise software systems for government-affiliated organizations. Supported issue identification, reporting, and coordination during deployment phases, contributing to smoother system adoption and operational stability.",
