@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
       "A Telegram group bot that indexes all images shared in a group and allows users to search for faces. Given a single image, the bot scans previously indexed images, finds matching faces, and returns all related images directly via private chat.",
     tags: ["Telegram Bot", "Python", "Face Recognition", "DeepFace"],
     link: "https://t.me/search_reverse_bot",
-    github: "@search_reverse_bot",
+    github: "https://t.me/search_reverse_bot",
     image: imageImage,
   },
   {
