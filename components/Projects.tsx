@@ -18,10 +18,10 @@ const Projects: React.FC = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 border border-white/10">
-        {PROJECTS.map((project) => (
+        {PROJECTS.map((project, i) => (
           <div
             key={project.id}
-            className="bg-background p-8 group hover:bg-white/[0.02] transition-colors relative h-full flex flex-col"
+            className={`bg-background p-8 group hover:bg-white/[0.02] transition-colors relative h-full flex flex-col`}
           >
             {/* Project Preview Image */}
             <div className="w-full aspect-video mb-8 overflow-hidden border border-white/10 relative bg-black">
@@ -32,7 +32,9 @@ const Projects: React.FC = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out"
+                className={`w-full h-full ${
+                  i == PROJECTS.length - 1 ? "object-contain" : "object-cover"
+                }  grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out`}
               />
 
               {/* Corner Markers */}
@@ -43,7 +45,7 @@ const Projects: React.FC = () => {
               <div className="absolute top-3 right-3 z-20 flex items-center gap-1.5 bg-black/50 backdrop-blur px-2 py-1 border border-white/10">
                 <span className="w-1 h-1 bg-green-500 rounded-full animate-pulse"></span>
                 <span className="text-[8px] font-mono text-white/70 tracking-widest">
-                  LIVE_FEED
+                  FEATURED
                 </span>
               </div>
             </div>
