@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ChatWidget from './components/ChatWidget';
+import { Analytics } from '@vercel/analytics/react';
 
 const App: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const App: React.FC = () => {
       </main>
       <Footer />
       <ChatWidget />
+      <Analytics />
     </div>
   );
 };

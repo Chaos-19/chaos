@@ -1,4 +1,7 @@
 import { Project, Experience, Skill } from "./types";
+import btImage from "./assets/bt.jpg";
+import imageImage from "./assets/image.png";
+import ngpadd from "./assets/ngpadd.png";
 
 export const PORTFOLIO_DATA = {
   name: "Kalkidan Chaos",
@@ -22,7 +25,7 @@ export const PROJECTS: Project[] = [
     tags: ["React Native", "Raffle System", "Admin Dashboard", "Express Api"],
     link: "https://github.com/btcreative/RaffleApp",
     github: "https://github.com/btcreative/RaffleApp",
-    image: "assets/bt.jpg",
+    image: btImage,
   },
   {
     id: 2,
@@ -32,7 +35,7 @@ export const PROJECTS: Project[] = [
     tags: ["Telegram Bot", "Python", "Face Recognition", "DeepFace"],
     link: "https://t.me/search_reverse_bot",
     github: "@search_reverse_bot",
-    image: "assets/image.png",
+    image: imageImage,
   },
   {
     id: 3,
@@ -42,7 +45,7 @@ export const PROJECTS: Project[] = [
     tags: ["Flutter", "Firebase", "E-Commerce", "Graduation Project"],
     link: "https://github.com/Chaos-19/e-commerce",
     github: "https://github.com/Chaos-19/e-commerce",
-    image: "assets/",
+    image: imageImage,
   },
   {
     id: 4,
@@ -52,7 +55,7 @@ export const PROJECTS: Project[] = [
     tags: ["Android", "Kotlin", "Java", "Education App"],
     link: "https://github.com/Chaos-19/NgPad_Android_clone",
     github: "https://github.com/Chaos-19/NgPad_Android_clone",
-    image: "assets/ngpadd.png",
+    image: ngpadd,
   },
 ];
 
