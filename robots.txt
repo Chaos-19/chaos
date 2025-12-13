@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chaoskal.vercel.app/sitemap.xml
