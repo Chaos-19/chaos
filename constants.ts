@@ -4,7 +4,7 @@ import imageImage from "./assets/image.png";
 import ngpadd from "./assets/ngpadd.png";
 
 export const PORTFOLIO_DATA = {
-  name: "Kalkidan Chaos",
+  name: "Kalkidan Getachew",
   role: "Mid Full Stack Engineer",
   bio: "I design and build practical software systems that solve real-world problems. My focus is on crafting reliable full-stack and mobile applications, understanding systems under the hood, and delivering solutions that are maintainable, scalable, and user-centered.",
   location: "Addis Ababa , Ethiopia",
