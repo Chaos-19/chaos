@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
       {/* Brand / ID */}
       <a href="#" className="flex items-center gap-3 group">
         <Aperture size={16} className="text-white group-hover:rotate-180 transition-transform duration-700" />
-        <span className="font-bold text-white uppercase">SYS.ARCH // <span className="text-secondary font-normal group-hover:text-white transition-colors">Kalkidan Choas</span></span>
+        <span className="font-bold text-white uppercase">SYS.ARCH // <span className="text-secondary font-normal group-hover:text-white transition-colors">Kalkidan Getachew</span></span>
       </a>
 
       {/* Navigation Coordinates */}
