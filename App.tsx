@@ -46,7 +46,7 @@ const App: React.FC = () => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://kalchaos.vercel.app/" />
         <meta
-          property="twitter:title"
+          prope
           content="Kalkidan Getachew | Mid Full Stack Engineer"
         />
         <meta
