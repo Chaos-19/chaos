@@ -12,7 +12,7 @@ export const PORTFOLIO_DATA = {
   social: {
     github: "https://github.com/Chaos-19",
     telegram: "https://t.me/chaos_blogs",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/kalkidan-getachew-bab252230",
   },
 };
 
